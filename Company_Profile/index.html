@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PT Suka Cita</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar_wrapper">
+            <h1 class="brand">PT Suka Cita</h1>
+            <menu class="navbar_menu">
+                <a href="hotnews.html">Berita Terbaru</a>
+                <a href="loker.html">Lowongan Kerja</a>
+                <a href="map.html">Location</a>
+                <a href="galery.html">Produk</a>
+            </menu>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>PT Suka Cita</h1>
+        <h3>Manufactur Industri</h3>
+    </div>
+
+    <section class="submit-article">
+        <h2>Kirim Artikel atau Opini Anda</h2>
+        <form action="proses_form.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="artikel">Artikel atau Opini:</label><br>
+            <textarea id="artikel" name="artikel" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+    <footer>
+        <p>PWEB-B</p>
+        <h3>Muhamad Faiz Fernanda</h3>
+        <h3>5025211186</h3>
+    </footer>
+
+</body>
+
+</html>
